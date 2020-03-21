@@ -1,0 +1,73 @@
+	a.head{
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+	}
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style>
+* {
+   font-family: Raleway;
+  box-sizing: border-box;
+}
+
+#regForm {
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  font-family: Raleway;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/*Mark input boxes that gets an error on validation: */
+input.invalid {
+  color: #ff0000;
+  background-color: #ffdddd;
+}
+
+.invalid {
+  color: #ff0000;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.require{
+	color: red !important;
+	font-size: 29px;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #1b63d6;
+}
