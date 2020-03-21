@@ -26,9 +26,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Project Setup
 
 <ol>
-    <li>Unzip this folder and save all the folders and files under folder called test.</li>
-    <li>Now Import the database file john_brothers.sql</li>
-    <li>Run php artisan serve command inside test directory using cmd</li>
+    <li>Unzip this folder.</li>
+    <li>Now Import the database file john_brothers.sql into sql database using WAMP or SQL Workbench</li>
+    <li>Run php artisan serve command inside Laravel-CRUD directory using cmd</li>
     <li>Hit localhost:8000/</li>
     <li>Default login Credentials <br/> Username: admin@johnbrothers.com<br /> Password: administrator</li>
 </ol>
